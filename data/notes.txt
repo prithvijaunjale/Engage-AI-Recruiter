@@ -1,0 +1,21 @@
+Interview Chatbot
+
+Question Types
+Collect resume, contact information
+Ask screening questions about candidates’ experience, knowledge, and skills in depth
+Follow up questions
+Personal information to determine cultural fit
+
+Generate Training Data
+https://rodrigopivi.github.io/Chatito/
+
+Making it more natural
+Acknowledge first and then move on to the next factual responses.
+
+Follow up questions
+Analysing work experience answers to find common traits.
+Labelling these common traits as a specific entities (e.g. ‘abilities’, ‘task completion rate’, ‘knowledge base’ etc.)
+Using presence of entities to classify between intents. (Pre-training)
+Creating follow up questions based on intent, and slots derived from the entities.
+e.g. If ‘ability’ is mentioned -> Q. How can you use your ability of ______ for our project?
+e.g. If no entities found -> Move on to the next template question.
